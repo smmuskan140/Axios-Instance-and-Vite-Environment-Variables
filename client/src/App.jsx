@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getThreads, createThread } from "./services/threads.service";
 
-// App.jsx is already wired for you. It calls the service functions you implement.
+// App.jsx is already wired for the your project. It calls the service functions you implement.
 // It also logs the env var so you can grab the screenshot for your PR.
 console.log("VITE_API_URL:", import.meta.env.VITE_API_URL);
 
